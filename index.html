@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/normalizer.css"> -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    </head>
+    <body>
+        <section class="main">
+            <section class="container">
+                <picture class="form__picture">
+                    <img src="assets/7997975_900.jpg" alt="" class="form__img">
+                </picture>
+
+                <section class="form">
+                    <h1 class="title">Agenda Tu Cita</h1>
+
+                    <form action="" method="POST" id=" formulario">
+                        <section class="form_groups">
+                            <h2 class="form__text">Fecha y Hora</h2>
+                            <div class="form_group">
+                                <input type="time" class="input time">
+                                <input type="date" class="input date">
+                            </div>
+    
+                            <h2 class="form__text selection">establecimiento</h2>
+                            <div class="form_group group-selection">
+                                <select name="" id="" class="list_barber">
+                                    <option class="opt-barber" value="">
+                                        Seleccione establecimiento
+                                    </option>
+                                </select>
+                            </div>
+    
+                            <h2 class="form__text type">corte y precio</h2>
+                            <div class="form_group group-type">
+                                <select name="" id="" class="selection-type">
+                                    <option value="">Tipo de corte</option>
+                                </select>
+                                <input type="text" class="input price" value="" disabled>
+                            </div>
+    
+                            <div class="form__buttons">
+                                <button class="btn success">Agendar</button>
+                                <button class="btn cancel">Cancelar</button>
+                            </div>
+                        </section>
+                    </form>
+                </section>
+            </section>
+        </section>
+
+        <script src="js/Barbers.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
